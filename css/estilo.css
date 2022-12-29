@@ -3,3 +3,11 @@
     background-color: rgb(23, 70, 112);
     
 }
+
+#nombre {
+    color: blanchedalmond;
+}
+
+.ulInfoPersonal {
+    list-style-type: none;
+}
