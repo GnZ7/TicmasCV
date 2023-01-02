@@ -1,13 +1,40 @@
 
-.card{
-    background-color: rgb(23, 70, 112);
-    
-}
 
 #nombre {
-    color: blanchedalmond;
+    color: #FAFAD2;
 }
 
-.ulInfoPersonal {
+.ulTelefono {
     list-style-type: none;
+}
+
+#infoPersonalCol{
+    background: linear-gradient(to bottom, #017474 0%, #000000 100%);
+    word-break: break-word;
+    font-family: Montserrat;
+}
+#pills-tab>li{
+    margin-bottom: 1rem;
+    
+}
+#pills-tabContent>*{
+    color: #FAFAD2;
+}
+
+#imagen>img{
+    border-style: solid;
+    border-color: #FAFAD2;
+}
+
+#colHabilidades>ul{
+    text-align: justify;
+}
+
+@media (min-width: 992px)
+{
+   #infoPersonalBody{padding-left:2rem;} 
+}
+
+body{
+    font-family: Montserrat;
 }
