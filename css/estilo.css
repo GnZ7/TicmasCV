@@ -1,40 +1,56 @@
-
-
 #nombre {
-    color: #FAFAD2;
+  color: rgb(240, 23, 59);
 }
 
 .ulTelefono {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-#infoPersonalCol{
-    background: linear-gradient(to bottom, #017474 0%, #000000 100%);
-    word-break: break-word;
-    font-family: Montserrat;
+#infoPersonalCol {
+  background: linear-gradient(to bottom, #017474 0%, #000000 100%);
+  word-break: break-word;
+  font-family: Montserrat;
 }
-#pills-tab>li{
-    margin-bottom: 1rem;
-    
+#pills-tab > li {
+  margin-bottom: 1rem;
 }
-#pills-tabContent>*{
-    color: #FAFAD2;
+#pills-tab > li > button > i {
+  color: rgb(240, 23, 59);
 }
-
-#imagen>img{
-    border-style: solid;
-    border-color: #FAFAD2;
+#pills-tabContent > * {
+  color: #fafad2;
 }
 
-#colHabilidades>ul{
-    text-align: justify;
+#imagen > img {
+  border-style: solid;
+  border-color: #fafad2;
 }
 
-@media (min-width: 992px)
-{
-   #infoPersonalBody{padding-left:2rem;} 
+#sobreMi > h1 {
+  color: rgb(240, 23, 59);
+}
+#sobreMi > p {
+  color: #fafad2;
 }
 
-body{
-    font-family: Montserrat;
+#habilidadesCol > ul {
+  text-align: justify;
+}
+
+#habilidadesCol > h2 {
+  color: rgb(240, 23, 59);
+}
+
+#experienciaCol > h2 {
+  color: rgb(240, 23, 59);
+}
+
+@media (min-width: 992px) {
+  #infoPersonalBody {
+    padding-left: 2rem;
+  }
+}
+
+body {
+  font-family: Montserrat;
 }
